@@ -1,0 +1,2 @@
+class wizard
+hit-points 6

@@ -1,6 +1,8 @@
-Strength 16
-Dexterity 11
-Constitution 15
-Intelligence 11
-Wisdom 11
-Charisma 12
+Class fighter
+Hit points 12
+Strength 13 1
+Dexterity 17 3
+Constitution 14 2
+Intelligence 10 0
+Wisdom 12 1
+Charisma 13 1

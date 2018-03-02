@@ -1,0 +1,2 @@
+class fighter
+hit-points 10
