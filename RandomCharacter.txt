@@ -1,8 +1,9 @@
-Class fighter
-Hit points 12
-Strength 13 1
-Dexterity 17 3
-Constitution 14 2
-Intelligence 10 0
-Wisdom 12 1
-Charisma 13 1
+Class wizard
+
+Hit points 6
+Strength 14 2
+Dexterity 13 1
+Constitution 11 0
+Intelligence 17 3
+Wisdom 9 -1
+Charisma 9 -1
