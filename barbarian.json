@@ -1,0 +1,27 @@
+{
+  "className": "Barbarian",
+  "hitPoints": 12,
+  "armor": "Light armor, medium armor, shields",
+  "weapons": "Simple weapons, martial weapons",
+  "tools": "none",
+  "savingThrows": ["str", "con"],
+  "skills": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"],
+  "skillsNumber": 2,
+  "equipment": [
+    {
+      "weapon": ["greataxe", "martial melee weapon"],
+      "secondWeapon": ["two handaxes", "any simple weapon"],
+      "pack": ["An explorer's pack and four javelins"]
+
+    }
+  ],
+  "special": {
+      "fightingStyle": ["archery", "defense", "dueling", "great weapon fighting", "protection", "two-weapon fighting"],
+      "statOption": ["str"],
+      "bestStats":{
+          "str" : ["str", "con"]
+        }
+    }
+
+
+}

@@ -1,9 +1,30 @@
-import glob2
-import math
-from random import choices
+import json
+import os
+from random import choices, choice, shuffle
 
 
-statName = ["Strength ","Dexterity ","Constitution ","Intelligence ","Wisdom ","Charisma "]
+class character:
+
+    def __init__(self, char_class):
+        with open(char_class +'.json', "r") as read_file:
+            self.data = json.load(read_file)
+            self.rand_class = self.data["className"]
+
+    def set_stats(self):
+        self.stat_name = ["str","dex","con","int","wis","cha"]
+        shuffle(self.stat_name)
+        self.rolled_stats = stat_gen()
+        self.rolled_stats.sort(reverse=True)
+        self.stat_order = self.data["special"]["bestStats"][choice(self.data["special"]["statOption"])]
+        for s in self.stat_name:
+            if s not in self.stat_order:
+                self.stat_order.append(s)
+
+        self.stat_order = dict(zip(self.stat_order, self.rolled_stats))
+        print(self.data["className"])
+        print(self.stat_order)
+
+
 
 def stat_gen():
     statReturn = []
@@ -15,5 +36,9 @@ def stat_gen():
         )
     return statReturn
 
-for stat in stat_gen():
-    print(stat)
+def class_choice():
+    file = choice(['fighter', 'wizard'])
+    return file
+
+rand_char = character(class_choice())
+rand_char.set_stats()

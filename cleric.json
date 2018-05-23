@@ -1,0 +1,118 @@
+{
+  "className": "Cleric",
+  "hitPoints": 8,
+  "armor": "Light armor, medium armor, shields",
+  "weapons": "All simple weapons",
+  "tools": "None",
+  "savingThrows": ["wis", "cha"],
+  "skills": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+  "skillsNumber": 2,
+  "equipment": [
+    {
+      "weapon": ["mace", "warhammer"],
+      "armor": ["scale mail", "leather armor", "chain mail"],
+      "pack": ["Priest's pack", "Explorer's pack"],
+      "secondWeapon": ["light crossbow and 20 bolts", "any simple weapon"],
+      "other": ["A shield and a holy symbol"]
+
+    }
+  ],
+  "special": {
+      "spellsCantrip": 3,
+      "spellsLvlOne": 4,
+      "statOption": ["cha", "str"],
+      "bestStats":{
+          "cha" : ["wis","cha"],
+          "str" : ["wis", "str"]
+        },
+      "subclass": {
+        "arcanaDomain": {
+          "name": "Arcana Domain",
+          "spells": ["Detect Magic", "Magic Missile"],
+          "feature": {
+            "main":"Arcane Initiate",
+            "spellsCantrip":[2,"Wizard"],
+            "skills":"Arcana"}
+        },
+        "deathDomain": {
+          "name": "Death Domain",
+          "spells": ["False Life", "Ray of Sickness"],
+          "feature": {
+            "main": "Reaper",
+            "weapons":"martial weapons"}
+        },
+        "forgeDomain": {
+          "name": "Forge Domain",
+          "spells": ["Identify", "Searing Smite"],
+          "feature": {
+            "main": "Blessing of the Forge",
+            "armor": "heavy armor",
+            "tools": "smith's tools"}
+        },
+        "graveDomain": {
+          "name": "Grave Domain",
+          "spells": ["Bane", "False Life"],
+          "feature": {
+            "main": "Eyes of the Grave",
+            "spellsCantrip": "Spare the Dying (range 30 feet, bonus action)",
+            "other": "Circle of Mortality"}
+        },
+        "knowledgeDomain": {
+          "name": "Knowledge Domain",
+          "spells": ["Command", "Identify"],
+          "feature": {
+            "skillsExpertise": ["Arcana", "History", "Nature", "Religion"],
+            "spellsCantrip": "Spare the Dying (range 30 feet, bonus action)",
+            "languages": "Two languages"}
+        },
+        "lifeDomain": {
+          "name": "Life Domain",
+          "spells": ["Bless", "Cure Wounds"],
+          "feature": {
+            "main": "Disciple of Life",
+            "armor": "heavy armor"}
+        },
+        "lightDomain": {
+          "name": "Light Domain",
+          "spells": ["Burning Hands", "Faerie Fire"],
+          "feature": {
+            "main": "Warding Flare",
+            "spellsCantrip": "Light"}
+        },
+        "natureDomain": {
+          "name": "Nature Domain",
+          "spells": ["Animal Friendship", "Speak with Animals"],
+          "feature": {
+            "armor": "heavy armor",
+            "spellsCantrip": [1, "Druid"],
+            "skills": [1, "Animal Handling", "Nature"]}
+        },
+        "tempestDomain": {
+          "name": "Tempest Domain",
+          "spells": ["Fog Cloud", "Thunderwave"],
+          "feature": {
+            "main": "Wrath of the Storm",
+            "armor": "heavy armor",
+            "weapons": "martial weapons"
+            }
+        },
+        "trickeryDomain": {
+          "name": "Trickery Domain",
+          "spells": ["Charm Person", "Disguise Self"],
+          "feature": {
+            "main": "Blessing of the Trickster"
+            }
+        },
+        "warDomain": {
+          "name": "War Domain",
+          "spells": ["Divine Favor", "Shield of Faith"],
+          "feature": {
+            "main": "War Priest",
+            "armor": "heavy armor",
+            "weapons": "martial weapons",
+            }
+        }
+      }
+    }
+
+}
