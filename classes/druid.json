@@ -1,0 +1,28 @@
+{
+  "className": "Druid",
+  "hitPoints": 8,
+  "armor": "Light armor, medium armor, shields",
+  "weapons": "Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears",
+  "tools": "Herbalism kit",
+  "savingThrows": ["int", "wis"],
+  "skills": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival "],
+  "skillsNumber": 2,
+  "equipment": [
+    {
+      "weapon": ["scimitar", "simple melee weapon"],
+      "secondWeapon": ["wooden shield", "simple weapon"],
+      "armor": ["Leather armor, an explorer's pack, and a druidic focus"]
+
+    }
+  ],
+  "special": {
+      "statOption": ["wis"],
+      "bestStats":{
+          "wis" : ["wis","dex"]
+        },
+      "spellsCantrip": 2,
+      "spellsLvlOne": 4,
+      "other": ["Druidic language"]
+    }
+
+}

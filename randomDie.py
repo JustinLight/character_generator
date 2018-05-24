@@ -6,7 +6,7 @@ from random import choices, choice, shuffle
 class character:
 
     def __init__(self, char_class):
-        with open(char_class +'.json', "r") as read_file:
+        with open('classes/'+char_class +'.json', "r") as read_file:
             self.data = json.load(read_file)
             self.rand_class = self.data["className"]
 

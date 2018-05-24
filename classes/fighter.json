@@ -19,6 +19,7 @@
   "special": {
       "fightingStyle": ["archery", "defense", "dueling", "great weapon fighting", "protection", "two-weapon fighting"],
       "statOption": ["dex", "str"],
+      "statRatio": [1,5],
       "bestStats":{
           "str" : ["str", "con"],
           "dex" : ["dex", "con"]

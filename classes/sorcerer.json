@@ -1,0 +1,55 @@
+{
+  "className": "Sorcerer",
+  "hitPoints": 6,
+  "armor": "None",
+  "weapons": "Daggers, darts, slings, quarterstaffs, light crossbows",
+  "tools": "none",
+  "savingThrows": ["con", "cha"],
+  "skills": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"],
+  "skillsNumber": 2,
+  "equipment": [
+    {
+      "arcaneItem": ["component pouch", "arcane focus"],
+      "weapon": ["light crossbow and 20 bolts", "simple weapon"],
+      "secondWeapon": ["Two daggers"],
+      "pack": ["dungeoneer's pack", "explorer's pack"]
+
+    }
+  ],
+  "special": {
+      "spellsCantrip": 3,
+      "spellsLvlOne": 4,
+      "statOption": ["cha"],
+      "bestStats":{
+          "cha" : ["cha"]
+        },
+      "subclass": {
+        "draconicBloodline": {
+          "name": "Draconic Bloodline",
+          "feature1": ["Dragon Ancestor"],
+          "feature2": ["Draconic Resilience", ["armorClass", 3], ["hitPoints", 1]]
+        },
+        "divineSoul": {
+          "name": "Divine Soul",
+          "feature1": ["Favored by the Gods"],
+          "feature2": ["Divine Magic",[["Good", "	Cure Wounds"], ["Evil", "Inflict Wounds"], ["Law", "Bless"], ["Chaos", "Bane"], "Neutrality", "Protection from Evil and Good"]]
+        },
+        "shadowMagic": {
+          "name": "Shadow Magic",
+          "feature1": ["Eyes of the Dark"],
+          "feature2": ["Strength of the Grave"]
+        },
+        "stormSorcery": {
+          "name": "Storm Sorcery",
+          "feature1": ["Wind Speaker"],
+          "feature2": ["Tempestuous Magic"]
+        },
+        "wildMagic": {
+          "name": "Wild Magic",
+          "feature1": ["Wild Magic Surge"],
+          "feature2": ["Tides of Chaos"]
+        }
+      }
+    }
+
+}

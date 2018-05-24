@@ -1,0 +1,30 @@
+{
+  "className": "Rogue",
+  "hitPoints": 8,
+  "armor": "Light armor",
+  "weapons": "Simple weapons, hand crossbows, longswords, rapiers, shortswords",
+  "tools": "Thieves' tools",
+  "savingThrows": ["int", "dex"],
+  "skills": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation, ""Investigation", "Perception", "Performance", "Persuasion", "Stealth", "Sleight of Hand"],
+  "skillsNumber": 4,
+  "equipment": [
+    {
+      "weapon": ["rapier", "shortsword"],
+      "secondWeapon": ["a shortbow and quiver of 20 arrows", "shortsword"],
+      "pack": ["burglar's pack", "Dungeoneer's pack", "explorer's pack"],
+      "armor": ["Leather armor, two daggers, and thieves' tools"],
+
+    }
+  ],
+  "special": {
+      "statOption": ["con", "wis"],
+      "statRatio": [1,1],
+      "bestStats":{
+          "con" : ["dex", "con", "wis"],
+          "wis" : ["dex", "wis", "con"]
+        },
+      "other": ["Sneak Attack", "Thieves' Cant", "Expertise"]
+    }
+
+
+}
