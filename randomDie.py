@@ -24,6 +24,16 @@ class character:
         print(self.data["className"])
         print(self.stat_order)
 
+    def set_skills(self):
+        self.skills_number = self.data["skillsNumber"]
+        self.skill_list = self.data["skills"]
+        shuffle(self.skill_list)
+        self.skills = []
+        while self.skills_number > 0:
+            self.skills.append(self.skill_list.pop())
+            self.skills_number -= 1
+        print(self.skills)
+
 
 
 def stat_gen():
@@ -42,3 +52,4 @@ def class_choice():
 
 rand_char = character(class_choice())
 rand_char.set_stats()
+rand_char.set_skills()
