@@ -32,7 +32,7 @@
         "divineSoul": {
           "name": "Divine Soul",
           "feature1": ["Favored by the Gods"],
-          "feature2": ["Divine Magic",[["Good", "	Cure Wounds"], ["Evil", "Inflict Wounds"], ["Law", "Bless"], ["Chaos", "Bane"], "Neutrality", "Protection from Evil and Good"]]
+          "feature2": ["Divine Magic",[["Good", "Cure Wounds"], ["Evil", "Inflict Wounds"], ["Law", "Bless"], ["Chaos", "Bane"], ["Neutrality", "Protection from Evil and Good"]]]
         },
         "shadowMagic": {
           "name": "Shadow Magic",

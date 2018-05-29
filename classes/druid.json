@@ -5,7 +5,7 @@
   "weapons": "Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears",
   "tools": "Herbalism kit",
   "savingThrows": ["int", "wis"],
-  "skills": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival "],
+  "skills": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival"],
   "skillsNumber": 2,
   "equipment": [
     {

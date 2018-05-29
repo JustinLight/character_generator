@@ -37,7 +37,7 @@ def stat_gen():
     return statReturn
 
 def class_choice():
-    file = choice(['fighter', 'wizard'])
+    file = choice(['fighter', 'wizard', 'barbarian', 'bard', 'cleric', 'druid', 'monk', 'paladin', 'ranger', 'rogue', 'sorcerer', 'warlock'])
     return file
 
 rand_char = character(class_choice())
