@@ -34,6 +34,54 @@ class character:
             self.skills_number -= 1
         print(self.skills)
 
+    def set_spells(self):
+        self.cantrip_list = []
+        with open('spells/cantrips.json', "r") as read_file:
+            self.spells_data = json.load(read_file)
+
+        for spell in self.spells_data:
+
+            if self.rand_class in self.spells_data[spell]["class"]:
+                self.cantrip_list.append(spell)
+
+        shuffle(self.cantrip_list)
+        self.cantrips = []
+        self.cantrip_number = 0
+        try:
+            self.cantrip_number = self.data["special"]["spellsCantrip"]
+        except KeyError:
+            pass
+        while self.cantrip_number > 0:
+            self.cantrips.append(self.cantrip_list.pop())
+            self.cantrip_number -= 1
+        print(self.cantrips)
+
+        self.spell_1_list = []
+        with open('spells/first_level.json', "r") as read_file:
+            self.spells_data = json.load(read_file)
+
+        for spell in self.spells_data:
+
+            if self.rand_class in self.spells_data[spell]["class"]:
+                self.spell_1_list.append(spell)
+
+        shuffle(self.spell_1_list)
+        self.level_1 = []
+        self.level_1_number = 0
+        try:
+            self.level_1_number = self.data["special"]["spellsLvlOne"]
+        except KeyError:
+            pass
+        while self.level_1_number > 0:
+            self.level_1.append(self.spell_1_list.pop())
+            self.level_1_number -= 1
+        print(self.level_1)
+
+
+
+
+
+
 
 
 def stat_gen():
@@ -53,3 +101,4 @@ def class_choice():
 rand_char = character(class_choice())
 rand_char.set_stats()
 rand_char.set_skills()
+rand_char.set_spells()
