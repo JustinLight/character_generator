@@ -23,7 +23,35 @@
       "bestStats":{
           "cha" : ["cha"]
         },
-      "other": ["Arcane Recovery"]
+      "subclass": {
+        "celestial": {
+          "name": "The Celestial",
+          "spells": ["Guiding Bolt", "Cure Wounds"],
+          "cantrips": ["Sacred Flame", "Light"],
+          "feature1": "Healing Light"
+        },
+        "fiend": {
+          "name": "The Fiend",
+          "spells": ["Burning Hands", "Command"],
+          "feature1": "Dark One's Blessing"
+        },
+        "oldOne": {
+          "name": "The Great Old One",
+          "spells": ["Dissonant Whispers", "Tasha's Hideous Laughter"],
+          "feature1": "Awakened Mind"
+        },
+        "hexblade": {
+          "name": "The Hexblade",
+          "spells": ["Shield", "Wrathful Smite"],
+          "feature1": "Hex Warrior",
+          "feature2": "Hexblade's Curse"
+        },
+        "undying": {
+          "name": "The Undying",
+          "spells": ["False Life", "Ray of Sickness"],
+          "feature1": "Among the Dead"
+        }
+      }
     }
 
 }
