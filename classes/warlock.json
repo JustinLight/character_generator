@@ -2,26 +2,26 @@
   "className": "Warlock",
   "hitPoints": 8,
   "armor": "None",
-  "weapons": "Daggers, darts, slings, quarterstaffs, light crossbows",
+  "weapons": "Simple weapons",
   "tools": "none",
-  "savingThrows": ["int", "wis"],
-  "skills": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+  "savingThrows": ["cha", "wis"],
+  "skills": ["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"],
   "skillsNumber": 2,
   "equipment": [
     {
       "arcaneItem": ["component pouch", "arcane focus"],
-      "weapon": ["quarterstaff", "dagger"],
-      "spellbook": ["spellbook"],
-      "pack": ["scholar's pack", "explorer's pack"]
+      "weapon": ["a light crossbow and 20 bolts", "simple weapon"],
+      "armor": ["Leather armor, any simple weapon, and two daggers"],
+      "pack": ["scholar's pack", "dungeoneer's pack"]
 
     }
   ],
   "special": {
-      "spellsCantrip": 3,
-      "spellsLvlOne": 4,
-      "statOption": ["int"],
+      "spellsCantrip": 2,
+      "spellsLvlOne": 2,
+      "statOption": ["cha"],
       "bestStats":{
-          "int" : ["int"]
+          "cha" : ["cha"]
         },
       "other": ["Arcane Recovery"]
     }
