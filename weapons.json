@@ -1,0 +1,10 @@
+{
+  "simple": {
+    "melee": ["Club", "Dagger", "Greatclub", "Handaxe", "Javelin", "Light Hammer", "Mace", "Quarterstaff", "Sickle", "Spear"],
+    "ranged": ["Light Crossbow", "Dart", "Shortbow", "Sling"]
+  },
+  "martial": {
+    "melee": ["Battleaxe", "Flail", "Glaive", "Greataxe", "Greatsword", "Halberd", "Lance", "Longsword", "Maul", "Morningstar", "Pike", "Rapier", "Scimitar", "Shortsword", "Trident", "War Pick", "Warhammer", "Whip"],
+    "ranged": ["Blowgun", "Hand Crossbow", "Heavy Crossbow", "Longbow", "Net"]
+  }
+}
