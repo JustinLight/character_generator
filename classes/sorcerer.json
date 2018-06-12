@@ -7,15 +7,14 @@
   "savingThrows": ["con", "cha"],
   "skills": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment":
     {
       "arcaneItem": ["component pouch", "arcane focus"],
       "weapon": ["light crossbow and 20 bolts", "simple weapon"],
       "secondWeapon": ["Two daggers"],
       "pack": ["dungeoneer's pack", "explorer's pack"]
 
-    }
-  ],
+    },
   "special": {
       "spellsCantrip": 3,
       "spellsLvlOne": 4,

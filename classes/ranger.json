@@ -7,15 +7,14 @@
   "savingThrows": ["str", "dex"],
   "skills": ["Athletics", "Insight", "Investigation", " Animal Handling", "Nature", "Perception", "Stealth", "Survival"],
   "skillsNumber": 3,
-  "equipment": [
+  "equipment":
     {
       "weapon": ["two shortswords", "two simple melee weapons"],
       "secondWeapon": ["A longbow and a quiver of 20 arrows"],
       "pack": ["Dungeoneer's pack", "explorer's pack"],
       "armor": ["scalemail", "leather armor"]
 
-    }
-  ],
+    },
   "special": {
       "statOption": ["con", "wis"],
       "statRatio": [1,1],

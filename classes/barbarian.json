@@ -7,14 +7,13 @@
   "savingThrows": ["str", "con"],
   "skills": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment":
     {
-      "weapon": ["greataxe", "martial melee weapon"],
-      "secondWeapon": ["two handaxes", "any simple weapon"],
+      "weapon": ["greataxe", ["martial", "melee"]],
+      "secondWeapon": ["two handaxes", [["simple", "melee"], ["simple", "range"]]],
       "pack": ["An explorer's pack and four javelins"]
 
-    }
-  ],
+    },
   "special": {
       "fightingStyle": ["archery", "defense", "dueling", "great weapon fighting", "protection", "two-weapon fighting"],
       "statOption": ["str"],

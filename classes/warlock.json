@@ -7,15 +7,13 @@
   "savingThrows": ["cha", "wis"],
   "skills": ["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"],
   "skillsNumber": 2,
-  "equipment": [
-    {
+  "equipment": {
       "arcaneItem": ["component pouch", "arcane focus"],
       "weapon": ["a light crossbow and 20 bolts", "simple weapon"],
-      "armor": ["Leather armor, any simple weapon, and two daggers"],
+      "armor": ["Leather armor, simple weapon, and two daggers"],
       "pack": ["scholar's pack", "dungeoneer's pack"]
 
-    }
-  ],
+    },
   "special": {
       "spellsCantrip": 2,
       "spellsLvlOne": 2,

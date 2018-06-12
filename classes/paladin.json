@@ -7,15 +7,14 @@
   "savingThrows": ["wis", "cha"],
   "skills": ["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment":
     {
       "weapon": ["martial weapon and a shield", "two martial weapons"],
       "secondWeapon": ["five javelins", "simple melee weapon"],
       "pack": ["Priest's Pack", "explorer's pack"],
       "armor": ["Chain mail and a holy symbol"]
 
-    }
-  ],
+    },
   "special": {
       "statOption": ["con", "cha"],
       "statRatio": [1,1],

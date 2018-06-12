@@ -7,15 +7,13 @@
   "savingThrows": ["dex", "cha"],
   "skills": ["Athletics", "Acrobatics", "Sleight of Hand", "Stealth", "Arcana", "History", "Investigation", "Nature", "Religion", "Animal Handling", "Insight", "Medicine", "Perception", "Survival", "Deception", "Intimidation", "Performance", "Persuasion"],
   "skillsNumber": 3,
-  "equipment": [
-    {
+  "equipment": {
       "weapon": ["rapier", "longsword", "any simple weapon"],
       "instrument": ["lute", "any other musical instrument"],
       "pack": ["Diplomat's Pack", "Entertainer's Pack"],
       "armor": ["Leather armor and a dagger"]
 
-    }
-  ],
+    },
   "special": {
       "statOption": ["cha", "dex"],
       "bestStats":{

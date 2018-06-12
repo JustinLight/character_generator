@@ -7,16 +7,14 @@
   "savingThrows": ["wis", "cha"],
   "skills": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
   "skillsNumber": 2,
-  "equipment": [
-    {
+  "equipment": {
       "weapon": ["mace", "warhammer"],
       "armor": ["scale mail", "leather armor", "chain mail"],
       "pack": ["Priest's pack", "Explorer's pack"],
       "secondWeapon": ["light crossbow and 20 bolts", "any simple weapon"],
       "other": ["A shield and a holy symbol"]
 
-    }
-  ],
+    },
   "special": {
       "spellsCantrip": 3,
       "spellsLvlOne": 4,

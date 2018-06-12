@@ -7,15 +7,13 @@
   "savingThrows": ["str", "con"],
   "skills": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"],
   "skillsNumber": 2,
-  "equipment": [
-    {
+  "equipment":{
       "armor": ["Chain Mail", "Leather armor, longbow, and 20 arrows"],
       "weapon": ["martial weapon and shield", "Two martial weapon"],
       "secondWeapon": ["light crossbow and 20 bolts", "2 handaxe"],
       "pack": ["dungeoneer's pack", "explorer's pack"]
 
-    }
-  ],
+    },
   "special": {
       "fightingStyle": ["archery", "defense", "dueling", "great weapon fighting", "protection", "two-weapon fighting"],
       "statOption": ["dex", "str"],

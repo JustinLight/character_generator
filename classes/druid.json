@@ -7,14 +7,13 @@
   "savingThrows": ["int", "wis"],
   "skills": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment":
     {
       "weapon": ["scimitar", "simple melee weapon"],
       "secondWeapon": ["wooden shield", "simple weapon"],
       "armor": ["Leather armor, an explorer's pack, and a druidic focus"]
 
-    }
-  ],
+    },
   "special": {
       "statOption": ["wis"],
       "bestStats":{

@@ -7,15 +7,14 @@
   "savingThrows": ["int", "wis"],
   "skills": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment": 
     {
       "arcaneItem": ["component pouch", "arcane focus"],
       "weapon": ["quarterstaff", "dagger"],
       "spellbook": ["spellbook"],
       "pack": ["scholar's pack", "explorer's pack"]
 
-    }
-  ],
+    },
   "special": {
       "spellsCantrip": 3,
       "spellsLvlOne": 4,

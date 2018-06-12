@@ -7,14 +7,13 @@
   "savingThrows": ["str", "dex"],
   "skills": ["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"],
   "skillsNumber": 2,
-  "equipment": [
+  "equipment":
     {
       "weapon": ["shortsword ", "simple weapon"],
       "secondWeapon": ["10 darts"],
       "pack": ["dungeoneer's pack", "explorer's pack"]
 
-    }
-  ],
+    },
   "special": {
       "statOption": ["dex"],
       "statRatio": [1],
